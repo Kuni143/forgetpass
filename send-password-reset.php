@@ -30,7 +30,7 @@ if ($mysqli->affected_rows) {
     $mail->Subject = "Password Reset";
     $mail->Body = <<<END
 
-    Click <a href="http://localhost/php-password-reset-main/reset-password.php">here</a> 
+    Click <a href="https://kuni143.github.io/forgetpass/">here</a> 
     to reset your password.
 
     END;
